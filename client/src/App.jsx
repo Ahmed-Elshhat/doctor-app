@@ -15,7 +15,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="mx-20 ms:mx-[10%]">
+    <div className="mx-5 ms:mx-[10%]">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -25,7 +25,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/my-profile" element={<MyProfile />} />
-        <Route path="/appointments" element={<MyAppointments />} />
+        <Route path="/my-appointments" element={<MyAppointments />} />
         <Route path="/appointment/:docId" element={<Appointment />} />
       </Routes>
       <Footer />
